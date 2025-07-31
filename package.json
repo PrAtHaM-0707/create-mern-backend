@@ -1,0 +1,24 @@
+{
+  "name": "@pratham/create-mern-backend",
+  "version": "1.0.0",
+  "description": "CLI to scaffold MERN stack backend templates",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "create-mern-backend": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "fs-extra": "^11.0.0",
+    "inquirer": "^9.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Pratham Mittal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrAtHaM-0707/create-mern-backend.git"
+  }
+}
