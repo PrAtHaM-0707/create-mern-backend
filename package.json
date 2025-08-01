@@ -1,11 +1,11 @@
 {
-  "name": "@pratham/create-mern-backend",
+  "name": "@pratham07/create-mern-backend",
   "version": "1.0.0",
   "description": "CLI to scaffold MERN stack backend templates",
   "type": "module",
   "main": "index.js",
   "bin": {
-    "create-mern-backend": "./index.js"
+    "create-mern-backend": "./cli.js"
   },
   "dependencies": {
     "commander": "^12.0.0",
